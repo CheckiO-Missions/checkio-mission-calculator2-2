@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+
+<p>
+    <i>The first solid-state electronic calculator was created in the early 1960s. Pocket-sized devices became available in the 1970s, especially after the Intel 4004, the first microprocessor, was developed by Intel for the Japanese calculator company Busicom. They later became used commonly within the petroleum industry (oil and gas). <a href="https://en.wikipedia.org/wiki/Calculator" target="_blank">Find more on wikipedia page...</a></i>
+</p>
+<p>
+    In this series of missions you are going to build an elementary calculator.
+</p>
+<p>
+    As an input, you get a sequence of keys pressed, and, as the result of that function, you should show what will be shown on the screen when the last key is pressed. Be attentive, it's not always the result of the expression. Actually, playing with the physical calculator or app will really helps you to catch edge cases.
+</p>
+<p>
+    The calculator has a very simple keyboard. In the second mission the combination of three signs (+=-) are allowed: "==", "+=", "-=", "++-+" etc. See preconditions below for additional information.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Input:</strong> String.
+</p>
+<p>
+    <strong>Output:</strong> String.
+</p>
+<p>
+    <strong>Examples:</strong>
+</p>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>Calculators are widely used. Understanding the principles of its input and output are interesting and useful.</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Preconditions:</strong>
+    <ul>
+        <li><i>beginning operations are ignored;</i></li>
+        <li><i>among +- signs between numbers, the last one should be taken;</i></li>
+        <li><i>"==" means repeating the last operation;</i></li>
+        <li><i>"+=" or "-=" - adding/subtracting the number (or operations result) before the combination (doubling the number/subtracting itself).</i></li>
+    </ul>
+</p>
