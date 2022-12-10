@@ -68,7 +68,7 @@ TESTS = {
         {
             "input": ["1+2=2"],
             "answer": "2",
-            "explanation": "entering number rewrite previous result",
+            "explanation": "entering number rewrites previous result",
         },
     ],
     "Extra": [
