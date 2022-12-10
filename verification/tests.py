@@ -10,6 +10,7 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
+        # second
         {
             "input": ["3+="],
             "answer": "6",
@@ -30,6 +31,7 @@ TESTS = {
             "answer": "1",
             "explanation": "the last sign is taken, ignore beginning signs",
         },
+        # first
         {
             "input": ["12"],
             "answer": "12",
@@ -72,6 +74,7 @@ TESTS = {
         },
     ],
     "Extra": [
+        # second
         {
             "input": ["78-="],
             "answer": "0",
@@ -96,6 +99,7 @@ TESTS = {
             "input": ["12+15=="],
             "answer": "42",
         },
+        # first
         {
             "input": ["-5-10+15"],
             "answer": "15",
