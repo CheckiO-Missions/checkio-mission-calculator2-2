@@ -33,6 +33,16 @@ TESTS = {
         },
         # first
         {
+            "input": ["000000"],
+            "answer": "0",
+            "explanation": "single zero instead of multi-zeros number",
+        },
+        {
+            "input": ["0000123"],
+            "answer": "123",
+            "explanation": "remove beginning zeros",
+        },
+        {
             "input": ["12"],
             "answer": "12",
             "explanation": "you see what you enter",
@@ -100,6 +110,14 @@ TESTS = {
             "answer": "42",
         },
         # first
+        {
+            "input": ["000005+003"],
+            "answer": "3",
+        },
+        {
+            "input": ["000005+003="],
+            "answer": "8",
+        },
         {
             "input": ["-5-10+15"],
             "answer": "15",
