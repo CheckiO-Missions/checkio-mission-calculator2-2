@@ -82,6 +82,10 @@ TESTS = {
             "answer": "2",
             "explanation": "entering number rewrites previous result",
         },
+        {
+            "input": ["=5=10=15"],
+            "answer": "15",
+        },
     ],
     "Extra": [
         # second
@@ -125,10 +129,6 @@ TESTS = {
         {
             "input": ["-5-10+15-"],
             "answer": "10",
-        },
-        {
-            "input": ["=5=10=15"],
-            "answer": "15",
         },
         {
             "input": ["+1+2+3+4="],
