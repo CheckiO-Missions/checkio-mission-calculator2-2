@@ -1,0 +1,53 @@
+<!-- Describe task in general -->
+
+<p style="float: left; margin: 10px;">
+    <a href="https://www.vecteezy.com/free-vector/calculator"><img title="example" src="{{MEDIA}}calc.png" alt="example" style="max-height: 200px"/></a> 
+</p>
+<p>
+    <i>除了通用计算器外，还有为特定市场设计的计算器。例如，科学计算器包括三角函数和统计计算。有些计算器甚至还能进行计算机代数运算。图形计算器可用于绘制实线或高维欧几里得空间上定义的函数图。<a href="https://en.wikipedia.org/wiki/Calculator" target="_blank">Find more on wikipedia page...</a></i>
+</p>
+<p>
+    在本系列任务中，您将制作一个初级计算器。
+</p>
+<p>
+    作为输入，您需要按下一串按键，作为函数的结果，您需要显示按下最后一个按键时屏幕上将显示的内容。注意，这并不总是表达式的结果。事实上，使用实物计算器或应用程序确实能帮助你捕捉边缘情况。
+</p>
+<p>
+    在本任务中，将展示符号的组合。
+</p>
+<p>
+    <strong>预期行为：</strong>
+    <ul>
+        <li><i>去掉开头的零，将只有零的数字转换为单个零；</i></li>
+        <li><i>在数字之间的 +- 符号中，应取最后一个；</i></li>
+        <li><i>"=="表示重复上次操作；</i></li>
+        <li><i>"+="或"-="--在组合前对数字（或运算结果）进行加减运算（数字加倍/自身减倍）。</i></li>
+    </ul>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入：</strong>字符串。
+</p>
+<p>
+   <strong>输出： 字符串</strong>字符串。
+</p>
+<p>
+    <strong>示例：字符串</strong>
+</p>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<p class="for_info_only">
+
+    <strong>如何使用</strong>
+    <i>计算器被广泛使用。了解其输入和输出的原理既有趣又有用。</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>前提条件：</strong>
+    <i>允许使用的字符：数字 (0-9)、正号 (+)、负号 (-) 或等号 (=) 及其组合（+=、+-、== 等）。</i>
+</p>
